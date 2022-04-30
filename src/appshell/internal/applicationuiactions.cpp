@@ -179,8 +179,8 @@ const UiActionList ApplicationUiActions::m_actions = {
              ),
     UiAction("check-update",
              mu::context::UiCtxAny,
-             QT_TRANSLATE_NOOP("action", "Check for update"),
-             QT_TRANSLATE_NOOP("action", "Check for update")
+             QT_TRANSLATE_NOOP("action", "Check for language updates"),
+             QT_TRANSLATE_NOOP("action", "Check for language updates")
              )
 };
 

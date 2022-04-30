@@ -74,7 +74,7 @@ BaseSection {
 
             anchors.verticalCenter: parent.verticalCenter
 
-            text: qsTrc("appshell", "Check for update")
+            text: qsTrc("appshell", "Check for language updates")
 
             navigationName: "CheckForUpdate"
             navigationPanel: root.navigation
