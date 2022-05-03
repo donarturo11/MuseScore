@@ -205,6 +205,8 @@ QString SelectionFilterModel::titleForType(SelectionFilterType type) const
         return qtrc("notation", "Tremolos");
     case SelectionFilterType::GRACE_NOTE:
         return qtrc("notation", "Grace Notes");
+    case SelectionFilterType::CHORD:
+        return qtrc("notation", "Chords");    
     case SelectionFilterType::NONE:
         break;
     }

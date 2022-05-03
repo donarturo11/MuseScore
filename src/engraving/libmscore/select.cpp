@@ -174,6 +174,9 @@ bool SelectionFilter::canSelect(const EngravingItem* e) const
     if (e->isChord() && toChord(e)->isGrace()) {
         return isFiltered(SelectionFilterType::GRACE_NOTE);
     }
+    if (e->isChord() && (toChord(e)->isGrace()==false)) {
+        return isFiltered(SelectionFilterType::CHORD);
+    }
     return true;
 }
 
